@@ -64,8 +64,8 @@ ll.append('k')
 ll.append('p')
 ll.append('z')
 
-for i in ll:
-    print(i)
+for index, data in enumerate(ll):
+    print(index, data)
 
 print(list(ll))
 
